@@ -2,11 +2,14 @@
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
 import Navigation from '../components/navigation.astro';
+import Home from '../components/home.astro';
+import Skills from '../components/skills.astro'
 ---
 
 <Layout title="Welcome to Astro.">
-	<main class="mt-6">
-		<p class="text-3xl font-bold underline text-black" id="top">main</p>
+	<main class="snap-y snap-mandatory w-screen overflow-scroll">
+		<Home />
+		<Skills />
 	</main>
 </Layout>
 
